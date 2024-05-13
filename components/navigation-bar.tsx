@@ -19,6 +19,10 @@ const NavigationBar = () => {
   const pathname = usePathname();
   const routes: Route[] = [
     {
+      label: "Notification page (test)",
+      href: "test",
+    },
+    {
       label: "Home",
       href: "/",
     },
@@ -34,7 +38,7 @@ const NavigationBar = () => {
   return (
     <div className="flex flex-row mx-auto w-full my-8 px-20 justify-normal">
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl max-w-fit">
-        Abnormal FE
+        <a href="/">Abnormal FE</a>
       </h1>
       <NavigationMenu className="content-center">
         <NavigationMenuList className="px-4 gap-4 flex flex-row">
