@@ -20,7 +20,7 @@ const NavigationBar = () => {
   const routes: Route[] = [
     {
       label: "Notification page (test)",
-      href: "test",
+      href: "/test",
     },
     {
       label: "Home",
